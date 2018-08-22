@@ -8,6 +8,7 @@
 
 import UIKit
 
+// 适配公共类
 public func getMarketSize(marketSizeType: JKMarketSizeType, width: Float)->CGFloat {
     return CGFloat(JCMarketManager.showJCMarketManagerInstance.translationSize(pxSize: width, marketSizeType: marketSizeType))
 }

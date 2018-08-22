@@ -47,14 +47,14 @@ class JCMarketManager: NSObject {
     private func getScale(marketSizeType: JKMarketSizeType)->Double {
         
         let sizeInfo = self.getInfoWithMarketSizeType(marketSizeType: marketSizeType)
-        let saveScale = getUserdefule(forKey: sizeInfo.keyName)
+        let saveScale = self.getUserdefule(forKey: sizeInfo.keyName)
         if saveScale != nil {
             return saveScale as! Double
         } else {
             let screenSize = UIScreen.main.bounds.size;
             let screenWidth = screenSize.width;
             let scaleSize = Double(screenWidth) / Double(sizeInfo.width)
-            saveUserdefule(value: scaleSize, forKey: sizeInfo.keyName)
+            self.saveUserdefule(value: scaleSize, forKey: sizeInfo.keyName)
             return scaleSize
         }
     }
@@ -68,6 +68,17 @@ class JCMarketManager: NSObject {
         
         translationSize = scaleSize * Double(newPxSize);
         return translationSize;
+    }
+    
+    public func saveUserdefule(value: Any?, forKey: String) {
+        
+        UserDefaults.standard.set(value, forKey: forKey)
+        UserDefaults.standard.synchronize()
+    }
+    
+    public func getUserdefule(forKey: String)->Any? {
+        
+        return UserDefaults.standard.object(forKey: forKey)
     }
     
     // MARK: - Getters & Setters
