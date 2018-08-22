@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DF73714212D442A001EF37F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF73713212D442A001EF37F /* AppDelegate.swift */; };
+		7DF73716212D442A001EF37F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF73715212D442A001EF37F /* ViewController.swift */; };
+		7DF73719212D442A001EF37F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF73717212D442A001EF37F /* Main.storyboard */; };
+		7DF7371B212D442B001EF37F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF7371A212D442B001EF37F /* Assets.xcassets */; };
+		7DF7371E212D442B001EF37F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF7371C212D442B001EF37F /* LaunchScreen.storyboard */; };
+		7DF73729212D442B001EF37F /* JCMarketManagerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF73728212D442B001EF37F /* JCMarketManagerDemoTests.swift */; };
+		7DF73734212D442B001EF37F /* JCMarketManagerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF73733212D442B001EF37F /* JCMarketManagerDemoUITests.swift */; };
+		7DF73747212D4442001EF37F /* JCMarketTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF73743212D4442001EF37F /* JCMarketTool.swift */; };
+		7DF73748212D4442001EF37F /* JCMarketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF73745212D4442001EF37F /* JCMarketManager.swift */; };
+		7DF73749212D4442001EF37F /* JCMarketDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF73746212D4442001EF37F /* JCMarketDefine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DF73725212D442B001EF37F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DF73708212D442A001EF37F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DF7370F212D442A001EF37F;
+			remoteInfo = JCMarketManagerDemo;
+		};
+		7DF73730212D442B001EF37F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DF73708212D442A001EF37F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DF7370F212D442A001EF37F;
+			remoteInfo = JCMarketManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DF73710212D442A001EF37F /* JCMarketManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCMarketManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF73713212D442A001EF37F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DF73715212D442A001EF37F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DF73718212D442A001EF37F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DF7371A212D442B001EF37F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DF7371D212D442B001EF37F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DF7371F212D442B001EF37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF73724212D442B001EF37F /* JCMarketManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCMarketManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF73728212D442B001EF37F /* JCMarketManagerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCMarketManagerDemoTests.swift; sourceTree = "<group>"; };
+		7DF7372A212D442B001EF37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF7372F212D442B001EF37F /* JCMarketManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCMarketManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF73733212D442B001EF37F /* JCMarketManagerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCMarketManagerDemoUITests.swift; sourceTree = "<group>"; };
+		7DF73735212D442B001EF37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF73743212D4442001EF37F /* JCMarketTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCMarketTool.swift; sourceTree = "<group>"; };
+		7DF73745212D4442001EF37F /* JCMarketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCMarketManager.swift; sourceTree = "<group>"; };
+		7DF73746212D4442001EF37F /* JCMarketDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCMarketDefine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DF7370D212D442A001EF37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF73721212D442B001EF37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF7372C212D442B001EF37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DF73707212D442A001EF37F = {
+			isa = PBXGroup;
+			children = (
+				7DF73712212D442A001EF37F /* JCMarketManagerDemo */,
+				7DF73727212D442B001EF37F /* JCMarketManagerDemoTests */,
+				7DF73732212D442B001EF37F /* JCMarketManagerDemoUITests */,
+				7DF73711212D442A001EF37F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DF73711212D442A001EF37F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DF73710212D442A001EF37F /* JCMarketManagerDemo.app */,
+				7DF73724212D442B001EF37F /* JCMarketManagerDemoTests.xctest */,
+				7DF7372F212D442B001EF37F /* JCMarketManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DF73712212D442A001EF37F /* JCMarketManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7DF73741212D4442001EF37F /* JCMarketManager */,
+				7DF73713212D442A001EF37F /* AppDelegate.swift */,
+				7DF73715212D442A001EF37F /* ViewController.swift */,
+				7DF73717212D442A001EF37F /* Main.storyboard */,
+				7DF7371A212D442B001EF37F /* Assets.xcassets */,
+				7DF7371C212D442B001EF37F /* LaunchScreen.storyboard */,
+				7DF7371F212D442B001EF37F /* Info.plist */,
+			);
+			path = JCMarketManagerDemo;
+			sourceTree = "<group>";
+		};
+		7DF73727212D442B001EF37F /* JCMarketManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DF73728212D442B001EF37F /* JCMarketManagerDemoTests.swift */,
+				7DF7372A212D442B001EF37F /* Info.plist */,
+			);
+			path = JCMarketManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		7DF73732212D442B001EF37F /* JCMarketManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DF73733212D442B001EF37F /* JCMarketManagerDemoUITests.swift */,
+				7DF73735212D442B001EF37F /* Info.plist */,
+			);
+			path = JCMarketManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		7DF73741212D4442001EF37F /* JCMarketManager */ = {
+			isa = PBXGroup;
+			children = (
+				7DF73742212D4442001EF37F /* JCMarketBusiness */,
+				7DF73744212D4442001EF37F /* JCMarketTool */,
+			);
+			path = JCMarketManager;
+			sourceTree = "<group>";
+		};
+		7DF73742212D4442001EF37F /* JCMarketBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				7DF73743212D4442001EF37F /* JCMarketTool.swift */,
+			);
+			path = JCMarketBusiness;
+			sourceTree = "<group>";
+		};
+		7DF73744212D4442001EF37F /* JCMarketTool */ = {
+			isa = PBXGroup;
+			children = (
+				7DF73745212D4442001EF37F /* JCMarketManager.swift */,
+				7DF73746212D4442001EF37F /* JCMarketDefine.swift */,
+			);
+			path = JCMarketTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DF7370F212D442A001EF37F /* JCMarketManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF73738212D442B001EF37F /* Build configuration list for PBXNativeTarget "JCMarketManagerDemo" */;
+			buildPhases = (
+				7DF7370C212D442A001EF37F /* Sources */,
+				7DF7370D212D442A001EF37F /* Frameworks */,
+				7DF7370E212D442A001EF37F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCMarketManagerDemo;
+			productName = JCMarketManagerDemo;
+			productReference = 7DF73710212D442A001EF37F /* JCMarketManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DF73723212D442B001EF37F /* JCMarketManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF7373B212D442B001EF37F /* Build configuration list for PBXNativeTarget "JCMarketManagerDemoTests" */;
+			buildPhases = (
+				7DF73720212D442B001EF37F /* Sources */,
+				7DF73721212D442B001EF37F /* Frameworks */,
+				7DF73722212D442B001EF37F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF73726212D442B001EF37F /* PBXTargetDependency */,
+			);
+			name = JCMarketManagerDemoTests;
+			productName = JCMarketManagerDemoTests;
+			productReference = 7DF73724212D442B001EF37F /* JCMarketManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DF7372E212D442B001EF37F /* JCMarketManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF7373E212D442B001EF37F /* Build configuration list for PBXNativeTarget "JCMarketManagerDemoUITests" */;
+			buildPhases = (
+				7DF7372B212D442B001EF37F /* Sources */,
+				7DF7372C212D442B001EF37F /* Frameworks */,
+				7DF7372D212D442B001EF37F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF73731212D442B001EF37F /* PBXTargetDependency */,
+			);
+			name = JCMarketManagerDemoUITests;
+			productName = JCMarketManagerDemoUITests;
+			productReference = 7DF7372F212D442B001EF37F /* JCMarketManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DF73708212D442A001EF37F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Jackie;
+				TargetAttributes = {
+					7DF7370F212D442A001EF37F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7DF73723212D442B001EF37F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7DF7370F212D442A001EF37F;
+					};
+					7DF7372E212D442B001EF37F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7DF7370F212D442A001EF37F;
+					};
+				};
+			};
+			buildConfigurationList = 7DF7370B212D442A001EF37F /* Build configuration list for PBXProject "JCMarketManagerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DF73707212D442A001EF37F;
+			productRefGroup = 7DF73711212D442A001EF37F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DF7370F212D442A001EF37F /* JCMarketManagerDemo */,
+				7DF73723212D442B001EF37F /* JCMarketManagerDemoTests */,
+				7DF7372E212D442B001EF37F /* JCMarketManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DF7370E212D442A001EF37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF7371E212D442B001EF37F /* LaunchScreen.storyboard in Resources */,
+				7DF7371B212D442B001EF37F /* Assets.xcassets in Resources */,
+				7DF73719212D442A001EF37F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF73722212D442B001EF37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF7372D212D442B001EF37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DF7370C212D442A001EF37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF73748212D4442001EF37F /* JCMarketManager.swift in Sources */,
+				7DF73716212D442A001EF37F /* ViewController.swift in Sources */,
+				7DF73714212D442A001EF37F /* AppDelegate.swift in Sources */,
+				7DF73747212D4442001EF37F /* JCMarketTool.swift in Sources */,
+				7DF73749212D4442001EF37F /* JCMarketDefine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF73720212D442B001EF37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF73729212D442B001EF37F /* JCMarketManagerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF7372B212D442B001EF37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF73734212D442B001EF37F /* JCMarketManagerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DF73726212D442B001EF37F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DF7370F212D442A001EF37F /* JCMarketManagerDemo */;
+			targetProxy = 7DF73725212D442B001EF37F /* PBXContainerItemProxy */;
+		};
+		7DF73731212D442B001EF37F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DF7370F212D442A001EF37F /* JCMarketManagerDemo */;
+			targetProxy = 7DF73730212D442B001EF37F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DF73717212D442A001EF37F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF73718212D442A001EF37F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DF7371C212D442B001EF37F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF7371D212D442B001EF37F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DF73736212D442B001EF37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DF73737212D442B001EF37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DF73739212D442B001EF37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCMarketManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jackie.JCMarketManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DF7373A212D442B001EF37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCMarketManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jackie.JCMarketManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DF7373C212D442B001EF37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCMarketManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jackie.JCMarketManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCMarketManagerDemo.app/JCMarketManagerDemo";
+			};
+			name = Debug;
+		};
+		7DF7373D212D442B001EF37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCMarketManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jackie.JCMarketManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCMarketManagerDemo.app/JCMarketManagerDemo";
+			};
+			name = Release;
+		};
+		7DF7373F212D442B001EF37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCMarketManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jackie.JCMarketManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JCMarketManagerDemo;
+			};
+			name = Debug;
+		};
+		7DF73740212D442B001EF37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCMarketManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jackie.JCMarketManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JCMarketManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DF7370B212D442A001EF37F /* Build configuration list for PBXProject "JCMarketManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF73736212D442B001EF37F /* Debug */,
+				7DF73737212D442B001EF37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF73738212D442B001EF37F /* Build configuration list for PBXNativeTarget "JCMarketManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF73739212D442B001EF37F /* Debug */,
+				7DF7373A212D442B001EF37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF7373B212D442B001EF37F /* Build configuration list for PBXNativeTarget "JCMarketManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF7373C212D442B001EF37F /* Debug */,
+				7DF7373D212D442B001EF37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF7373E212D442B001EF37F /* Build configuration list for PBXNativeTarget "JCMarketManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF7373F212D442B001EF37F /* Debug */,
+				7DF73740212D442B001EF37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DF73708212D442A001EF37F /* Project object */;
+}
