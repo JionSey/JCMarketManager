@@ -39,6 +39,10 @@ class JCMarketManager: NSObject {
             info = (kIphone6Width, kIphone6SaveName)
         case .JKMarketSizeTypePlus:
             info = (kIphone6PWidth, kIphone6PSaveName)
+        case .JKMarketSizeTypeIPadSmall:
+            info = (kIpadSmallWidth, kIpadSmallSaveName)
+        case .JKMarketSizeTypeIPadBig:
+            info = (kIpadBigWidth, kIpadBigSaveName)
         }
         return info;
     }

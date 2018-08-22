@@ -31,4 +31,16 @@ postfix public func ~& (width: Float)->CGFloat {
     return getMarketSize(marketSizeType: JKMarketSizeType.JKMarketSizeTypePlus, width: width)
 }
 
+// 适配ipad small设计尺寸机型
+postfix operator ~!
+postfix public func ~! (width: Float)->CGFloat {
+    return getMarketSize(marketSizeType: JKMarketSizeType.JKMarketSizeTypeIPadSmall, width: width)
+}
+
+// 适配ipad big设计尺寸机型
+postfix operator ~+
+postfix public func ~+ (width: Float)->CGFloat {
+    return getMarketSize(marketSizeType: JKMarketSizeType.JKMarketSizeTypeIPadBig, width: width)
+}
+
 
